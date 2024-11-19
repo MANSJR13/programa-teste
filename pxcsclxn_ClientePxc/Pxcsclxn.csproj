@@ -1,0 +1,89 @@
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Bergs.Pxc.Pxcsclxn</RootNamespace>
+    <AssemblyName>Pxcsclxn</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileUpgradeFlags />
+    <UpgradeBackupLocation />
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ProjectGuid>{86A1A35C-E3C8-4285-85ED-426492DD2223}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>c:\Soft\Pxc\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>c:\Soft\Pxc\bin\Pxcsclxn.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>0618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Pxcsclxn.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>0618</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Pwxoiexn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=08606d990a0e8c66, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\soft\pwx\bin\pwxoiexn.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pwxoinxn, Version=4.0.0.0, Culture=neutral, PublicKeyToken=59daf1f8ae89c75c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\soft\pwx\bin\Pwxoinxn.dll</HintPath>
+    </Reference>
+    <Reference Include="pxuocfnm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1edfe374db703b7e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\bergs\Bin\pxuocfnm.dll</HintPath>
+    </Reference>
+    <Reference Include="pxuocgnm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1edfe374db703b7e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\bergs\Bin\pxuocgnm.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="Pxcbtoxn, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Soft\Pxc\bin\Pxcbtoxn.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pxcqclxn, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Soft\Pxc\bin\Pxcqclxn.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pgm\Pxcsclxn_AssemblyInfo.cs" />
+    <Compile Include="pgm\Pxcsclxn_ClientePxc.cs" />
+    <Compile Include="pgm\Pxcsclxn_Mensagem.cs" />
+    <Compile Include="pgm\Pxcsclxn_RegrasNegocioCliente.cs" />
+    <Compile Include="pgm\Pxcsclxn_ValidadorCpfCnpj.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild" />
+  <Target Name="AfterBuild" />
+  <PropertyGroup>
+    <PreBuildEvent>c:\soft\pwx\bin\pwxoaoxn.exe  /event:pre /project:"$(ProjectPath)" /configType:$(ConfigurationName)</PreBuildEvent>
+    <PostBuildEvent>
+c:\soft\pwx\bin\pwxoaoxn.exe /event:pos /project:"$(ProjectPath)" /configType:$(ConfigurationName)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

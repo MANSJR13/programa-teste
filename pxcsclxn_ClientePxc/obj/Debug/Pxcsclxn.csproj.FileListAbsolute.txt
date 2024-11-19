@@ -1,0 +1,12 @@
+C:\Soft\Pxc\bin\Pxcsclxn.xml
+C:\Soft\Pxc\bin\Pxcsclxn.dll
+C:\Soft\Pxc\bin\Pxcsclxn.pdb
+C:\Desenvhome\PXC\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.csprojAssemblyReference.cache
+C:\Desenvhome\PXC\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.csproj.CoreCompileInputs.cache
+C:\Desenvhome\PXC\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.dll
+C:\Desenvhome\PXC\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.pdb
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.csprojAssemblyReference.cache
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.csproj.CoreCompileInputs.cache
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.dll
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.pdb
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcsclxn_ClientePxc\obj\Debug\Pxcsclxn.csproj.CopyComplete
