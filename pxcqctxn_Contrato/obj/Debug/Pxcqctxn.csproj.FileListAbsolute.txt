@@ -1,0 +1,11 @@
+C:\Soft\Pxc\bin\Pxcqctxn.xml
+C:\Soft\Pxc\bin\Pxcqctxn.dll
+C:\Soft\Pxc\bin\Pxcqctxn.pdb
+C:\Desenvhome\PXC\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.csprojAssemblyReference.cache
+C:\Desenvhome\PXC\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.csproj.CoreCompileInputs.cache
+C:\Desenvhome\PXC\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.dll
+C:\Desenvhome\PXC\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.pdb
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.csprojAssemblyReference.cache
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.csproj.CoreCompileInputs.cache
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.dll
+C:\Treinamento\Professor\Exercício Contrato + Testes\pxcqctxn_Contrato\obj\Debug\Pxcqctxn.pdb
