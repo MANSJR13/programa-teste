@@ -1,0 +1,7 @@
+c:\Soft\Pxc\bin\Pxcuclxn.Test.xml
+c:\Soft\Pxc\bin\Pxcuclxn.Test.dll
+c:\Soft\Pxc\bin\Pxcuclxn.Test.pdb
+C:\Treinamento\Professor\Exercício Contrato + Testes\Pxcuclxn_TestesAutomatizados\obj\Debug\Pxcuclxn.csprojAssemblyReference.cache
+C:\Treinamento\Professor\Exercício Contrato + Testes\Pxcuclxn_TestesAutomatizados\obj\Debug\Pxcuclxn.csproj.CoreCompileInputs.cache
+C:\Treinamento\Professor\Exercício Contrato + Testes\Pxcuclxn_TestesAutomatizados\obj\Debug\Pxcuclxn.Test.dll
+C:\Treinamento\Professor\Exercício Contrato + Testes\Pxcuclxn_TestesAutomatizados\obj\Debug\Pxcuclxn.Test.pdb
